@@ -1,3 +1,4 @@
 class Identity < ApplicationRecord
-    enum gender: ["male", "female", "prefer_not_to_say", "other"]
+    extend Mobility
+    translates :gender, type: :string
 end

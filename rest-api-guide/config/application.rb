@@ -36,8 +36,10 @@ module RestApiGuide
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
-    config.i18n.available_locales = [:en, :es, :de, :hi, :ja, :pt]
+    # config.i18n.available_locales = %i[en ru]
+    config.i18n.available_locales = [:en, :es, :de, :hi, :ja, :pt, :ru]
     config.i18n.default_locale = :en
     config.i18n.fallbacks = true
   end
 end
+# %i[:en, :es, :de, :hi, :ja, :pt, :ru]

@@ -30,9 +30,7 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  male: "male"
-  female: "female"
+  male: male
+  female: female
   prefer_not_to_say: "prefer not to say"
-  other: "other"
-
-     
+  other: other
